@@ -4,7 +4,7 @@ public class Indexing {
     public static String index() {
         String response = "";
         String myStr = "Hello planet earth, you are a great planet.";
-        /* Your code goes here*/
+        response = String.valueOf(myStr.indexOf(" "));
 
         return response;
     }

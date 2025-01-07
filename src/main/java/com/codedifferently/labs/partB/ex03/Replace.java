@@ -5,7 +5,7 @@ public class Replace {
         String response = "";
         String sentence = "Using String replace to replace character";
         /** Your code goes here*/
-
+        response = sentence.replace("r", "R");
 
         return response;
     }
